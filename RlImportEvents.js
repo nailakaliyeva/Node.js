@@ -30,4 +30,3 @@ naila.test2();
 naila.on("test", ()=> console.log("Method test has been caught by the listener"));
 naila.on("test2", ()=> console.log("Method test2 has been caught by the listener"));
 rl.on("close", ()=> console.log("rl has been closed"));
-
